@@ -1,0 +1,181 @@
+#web{
+    font-family: cursive;
+    height: 100vh;
+}
+
+#hr{
+    color: black;
+    text-shadow: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(199, 184, 184);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    overflow: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.nav-bar {
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+    transition: 0.5s;
+}
+
+#nav-logo{
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.nav-item{
+    padding-left: 5px ;
+}
+
+.home{
+    display: grid;
+}
+.head-text{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+#box{
+    margin-top: 40px;
+}
+
+.font{
+    font-family: sans-serif;
+}
+.Connect{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin-left: 15%;
+
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+}
+#txt4{
+    font-size: 30px;
+}
+#btn1{
+    font-size: 20px;
+    width: 350px;
+    font-size:larger;
+    margin-left: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#img2{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    width: 430px;
+   
+}
+img{
+    transition: 0.5s;
+}
+#trolley{
+    height: 600px;
+}
+img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.col2{
+    padding-top: 70px;
+}
+button{
+    transition: 0.3;
+}
+button:hover{
+    scale: 1.020;
+    transition: 0.3;
+}
+
+.abt_us{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-align: center;
+}
+#txt4{
+    font-family: cursive;
+}
+
+.box{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.aus{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.aus_img{
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+
+}
+.coun{
+    background-color: rgba(136, 136, 136, 0.445);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+#footer{
+    display: flex;
+    align-items:flex-start;
+    padding: 10px; 
+    background-color: #ececec;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #footer p, #footer a{
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+  }
+  #footer a:hover{
+    color:rgba(151, 129, 129, 0.733);
+  }
+  #footer .about a{
+    display: block;
+    padding:8px 0;
+  }
+  #footer .myaccount a{
+    display: block;
+    padding:8px 0;
+  }
+  #footer .download img{
+    border: 1px solid #08817969;
+    border-radius: 7px;
+  }
+  
+  .foot{
+    margin-right: 10px;
+    margin-right: 10px; 
+    padding: 15px;
+  }
+
+  .flogo{
+    height: 40px;
+  }
+  .follow{
+    background-color:#ececec;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  #pay{
+    width: 180px;
+  }
