@@ -1,5 +1,3 @@
-// script.js file
-
 function domReady(fn) {
     if (
         document.readyState === "complete" ||
@@ -12,10 +10,9 @@ function domReady(fn) {
 }
 
 domReady(function () {
-
-    // If found you qr code
     function onScanSuccess(decodeText, decodeResult) {
-        alert("You Qr is : " + decodeText, decodeResult);
+        const newPageUrl = `newPage.html?qrData=${encodeURIComponent(decodeText)}&result=${encodeURIComponent(decodeResult)}`;
+        window.open(newPageUrl, '_blank');
     }
 
     let htmlscanner = new Html5QrcodeScanner(
