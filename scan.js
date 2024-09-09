@@ -21,3 +21,14 @@ domReady(function () {
     );
     htmlscanner.render(onScanSuccess);
 });
+
+window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const qrData = urlParams.get('qrData');
+    const result = urlParams.get('result');
+
+    // Now you can display the QR data and result
+    document.getElementById("qrDataDisplay").innerText = qrData;
+    document.getElementById("resultDisplay").innerText = result;
+};
+
